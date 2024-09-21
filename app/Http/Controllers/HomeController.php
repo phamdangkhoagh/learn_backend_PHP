@@ -14,4 +14,8 @@ class HomeController extends Controller
     public function getCreate(){
         return "create a page!";
     }
+
+    public function getIndex(){
+        return view('home');
+    }
 }
